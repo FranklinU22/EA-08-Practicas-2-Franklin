@@ -1,0 +1,40 @@
+div.h1{
+    color: white;
+    text-shadow: 1px 2px 2px white, 0 0 25px white, 0 0 5px white;
+    text-align: center;
+}
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightgreen, 0 6px 20px 0 white;
+    float: left;
+    width: 350px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-1deg);
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px lightgreen;
+    color: white;
+    padding: 10px;
+}
+
+.fotos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-left: 10%;
+}
+
+.div.galeria{
+    position: relative;
+}
+
